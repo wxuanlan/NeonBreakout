@@ -1,0 +1,17 @@
+# 发布包走 GitHub Releases 附件，不进 git
+*.zip
+*.7z
+
+# 构建产物
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# 运行时产生的存档 / 日志 / 截图
+neonbreakout_hiscore.txt
+neonbreakout_achv.txt
+perf.txt
+neonbreakout_*.bmp
+*.log
